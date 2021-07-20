@@ -1,0 +1,97 @@
+html, body {
+    background: #ECF4F3;
+    height: 100%;
+    width: 75%;
+    margin: auto;
+    font-family: 'Dosis', sans-serif;
+}
+
+a {
+    color: #6bc7be ; 
+}
+
+
+
+/********************* MENU **********************/
+
+header {
+    text-align: center;
+    padding: 10px 5px;
+}
+
+ul {
+    padding-left: 0;
+}
+.menu li {
+    color: #6bc7be ;
+    list-style: none;
+    display: inline;
+    padding: 5px 25px;
+}
+
+li > a {
+    text-decoration: none;
+}
+
+/********************* TITLE *********************/
+
+h1 {
+    color: #57A99A;
+    text-align: center;
+    font-size: 4em;
+}
+
+/********************** CONTENT **********************/
+
+p {
+    color: #6bc7be ;
+    width: 75%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 55%;
+    margin-top: 10%;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.services img {
+    order: 1;
+}
+
+/********************** FOOTER **********************/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+p {
+    padding: 3em;
+}
